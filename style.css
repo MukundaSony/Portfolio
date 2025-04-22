@@ -430,7 +430,11 @@ nav {
         height: 200px;
     }
 }
-
+@media (min-width: 1600px) {
+    .header-text {
+        margin-top: 16rem;
+    }
+}
 
 
 
