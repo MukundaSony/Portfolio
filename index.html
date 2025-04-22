@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>port folio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dcc0741995.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container2">
+        <div class="page-content" id="page">
+            <div id="home" class="section">
+                <div class="container">
+                    <nav>
+                        <img src="images/logo.png" alt="" class="logo">
+                        <div class="hamburger" id="hamburger">&#9776;</div>
+                    </nav>
+                        
+                    <div class="header-text">
+                        <div class="left">
+                            <p>Full Stack Web Developer</p>
+                            <h1>Hi, I'm <span>Mukunda</span><br>Sony  
+                            From India</h1>
+                        </div>
+                        <div class="right">
+                            <div class="wave-ring"></div>
+                            <div class="image-box">
+                                <img class="image"  src="images/background.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- -------------------------About------------------------- -->
+            <div id="about" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1 aboutcol">
+                            <img src="images/pp.png" alt=""> 
+                        </div>
+                        <div class="about-col-2 aboutcol">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I'm a passionate Full Stack Web Developer and a tech enthusiast currently pursuing my Bachelor's in Information Science and Engineering at BMS Institute of Technology. With a strong foundation in programming languages like Java, Python, and C, I enjoy solving real-world problems through efficient code and intuitive design. From excelling in hackathons to contributing to live projects, my journey reflects a constant curiosity to learn, build, and innovate.
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Work & Achievements</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tag" id="skills">
+                                <ul>
+                                    <li><span>Full Stack Development</span><br>Building responsive web apps with modern tech stacks.</li>
+                                    <li><span>Problem Solving & DSA</span><br>Solving problems using core DSA concepts.</li>
+                                    <li><span>Backend Engineering</span><br>Developing APIs and backend systems with Node.js and Flask.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Backend Developer Intern</span><br>Developed backend solutions to improve performance and user experience.</li>
+                                    <li><span>Hackathon Achievements</span><br>1st at HackSphere, 3rd at 0xDay Pondy, finalist at Meraki 2025 showcasing innovation and teamwork.</li>
+                                    <li><span>Project Contributions</span><br>Built and deployed full-stack web projects with clean, scalable code.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>BMS Institute of Technology, Bangalore</span><br>Bachelor's in Information Science and Engineering (2022–2026) – Current GPA: 9.20 </li>
+                                    <li><span>GoldenGate College (Grade 11–12)</span><br>Completed higher secondary education with a strong academic record and early exposure to computing.</li>
+                                    <!-- <li><span>2020</span><br>Lorem ipsum dolor sit amet.</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- --------------------------services----------------------------- -->
+            <div id="services" class="section">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div class="sl-dabba" >
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Development</h2>
+                            <p>I create responsive, fast-loading websites and web apps using the latest technologies. Whether it's frontend or backend, I ensure seamless performance and user experience.</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                        <div class="sl-dabba" >
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>Backend API Development</h2>
+                            <p>Need a reliable and secure server-side application? I specialize in building scalable REST APIs and handling database integration with Node.js, Flask, and MongoDB/PostgreSQL.</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                        <div class="sl-dabba" >
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Hackathon Prototyping & MVPs</h2>
+                            <p>I rapidly prototype full-fledged Minimum Viable Products (MVPs) for startups or competitions. With hands-on hackathon experience, I bring ideas to life under tight deadlines with creative solutions and clean code.</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------portfolio------------------------------- -->
+            <div id="portfolio" class="section">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work1.png" alt="">
+                            <div class="layer">
+                                <h3>Smart Test Platform</h3>
+                                <p>A HackerEarth-inspired platform where students can take tests and teachers can schedule and manage them. It ensures test integrity and smooth coordination between both parties.</p>
+                                <a href="https://github.com/EarthlingAidTech/PrepZer0"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work2.png" alt="">
+                            <div class="layer">
+                                <h3>E-Commerce Frontend</h3>
+                                <p>Designed a modern and responsive frontend for an e-commerce website with an intuitive user interface and product layout using HTML, CSS, and JavaScript.</p>
+                                <a href="https://mukundasony.github.io/Ecommerce-front-end/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work3.png" alt="">
+                            <div class="layer">
+                                <h3>Travel Tracker Application</h3>
+                                <p>A full-stack web app built with Node.js, Express, and PostgreSQL where users can log visited countries, manage profiles, and personalize their experience with custom themes.</p>
+                                <a href="https://github.com/MukundaSony/Travel-Tracker-Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work4.png" alt="">
+                            <div class="layer">
+                                <h3>UV Index & Sunscreen Advisor</h3>
+                                <p>A location-based web app that fetches real-time UV index using the OpenUV API and recommends the right level of sunscreen protection for user safety.</p>
+                                <a href="https://github.com/MukundaSony/new-uv-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-1.png" alt="">
+                            <div class="layer">
+                                <h3>Zoom Meeting Scheduler</h3>
+                                <p>A Node.js app that automates Zoom meeting scheduling using Server-to-Server OAuth, complete with customizable settings and seamless API integration.</p>
+                                <a href="https://github.com/MukundaSony/Zoom-Meeting-Scheduler"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work6.png" alt="">
+                            <div class="layer">
+                                <h3>Sundown Studio Clone</h3>
+                                <p>Cloned the Sundown Studio website with pixel-perfect accuracy, showcasing advanced frontend skills and attention to design detail.</p>
+                                <a href="https://mukundasony.github.io/Sundown/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn">See more</a> -->
+                </div>
+            </div>
+            <!-- ------------------------contact--------------------------------- -->
+            <div id="contact" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> rajsony1113@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> 7319878831</p>
+                            <div class="social-icons">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="./Mukunda_Sony_Resume.pdf" download class="btn btn2">Download Resume</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email"  placeholder="Your Email">
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyrighy <i class="fa-regular fa-copyright"></i> Mukunda.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-menu" id="nav">
+            <ul>
+                <li data-target = "home">Home</li>
+                <li data-target = "about">About</li>
+                <li data-target = "services">Services</li>
+                <li data-target = "portfolio">Portfolio</li>
+                <li data-target = "contact">Contact</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tag");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tag");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxrCB791K3FW6zouzgPt_3aQegA57z2m830wkEsY9MNCt9ntZGueGy0BXotDkMJafNBpQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML="" 
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const page = document.getElementById("page");
+        const nav = document.getElementById("nav");
+        const navItems = nav.querySelectorAll("li");
+
+        hamburger.addEventListener("click", () => {
+            page.classList.toggle("shrink");
+            nav.classList.toggle("show");
+        });
+
+        navItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const targetId = item.getAttribute("data-target");
+        const targetSection = document.getElementById(targetId);
+
+        page.classList.remove("shrink");
+        nav.classList.remove("show");
+
+        setTimeout(() => {
+          targetSection.scrollIntoView({ behavior: "smooth" });
+        }, 600);
+      });
+    });
+    </script>
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <!-- <script src="index.js"></script> -->
+
+</body>
+</html>
